@@ -82,6 +82,9 @@ function draw() {
   fill(255);
   textSize(32);
   text(seasonName, 30, height-40);
-  text('Hours Elapsed: ' +hoursElapsed, width/2.5, height-40);
-  text('Minutes Elapsed: '+minutesElapsed, width/1.25, height-40);
+  text('Hours: ' +hoursElapsed, width/1.3, height-40);
+  text('Minutes: '+minutesElapsed, width/1.15, height-40);
+
+  textSize(16);
+  text('Turn On Sound & Click Anywhere For An Immersive Experience (Earphones Recommended)', width/4.5, height-45);
 }
