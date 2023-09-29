@@ -60,7 +60,7 @@ function draw() {
       createRect();
       seasonName = 'WINTER';
     }
-    if(xpos>=width)             //exection reserved if x-coordinates goes path viewport width
+    if(xpos>=width)             //execution reserved if x-coordinates goes past viewport width
     {
       background(0);
       xpos=0;
