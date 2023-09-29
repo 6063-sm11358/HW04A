@@ -5,9 +5,15 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   background(0);
   webSound = createAudio('./Clockwork.mp3');
-  webSound.autoplay(true);  
+  webSound.autoplay(false);  
   webSound.loop();
   webSound.speed(1.1);
+}
+
+//function call for executing web-sound
+function mouseClicked()
+{
+  webSound.play();
 }
 
 //function definition for creating "seconds" rectangles
